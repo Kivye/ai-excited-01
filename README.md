@@ -2,15 +2,15 @@
 [![rank](https://make.fun/badge/ai-excited-01/Kivye/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/Kivye/ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-# A Hug Full of Sparks
+# Galaxy Jellyfish
 
-Dua plush teal dan oranye berpelukan dalam cahaya hangat, bulu lembut, dan hujan confetti. Seluruh gambar 768 × 768 dibuat secara prosedural, termasuk encoder PNG dengan CRC32 sendiri, hanya memakai standard library Node.js.
+A colossal jellyfish rises from a midnight ocean, carrying a swirling galaxy in its luminous bell. Golden and teal tentacles illuminate the waves above a tiny fishing boat and lighthouse. Deterministic procedural painting, using only the Node.js standard library and a handwritten PNG encoder.
 
-Jalankan dengan Node.js 22.21 atau lebih baru:
+Run with Node.js 22:
 
 ```sh
 mkdir -p out
 MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-Hasil: `out/entry.png`. Tanpa variabel lingkungan, hasil ditulis ke `/output/entry.png`. Tidak perlu instalasi dependensi atau akses jaringan.
+Creates a 768 × 768 PNG at `out/entry.png`. Without `MAKEFUN_OUTPUT_DIR`, the destination is `/output/entry.png`.
